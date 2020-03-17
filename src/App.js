@@ -7,6 +7,8 @@ import {Login} from './routes/login'
 import {SignUp} from './routes/signup'
 import {UpdateProfile} from './routes/update-profile'
 
+const PageNotFound = () => <div><h1>Page not found</h1></div>
+
 function App() {
   return (
       <BrowserRouter>
@@ -17,6 +19,7 @@ function App() {
               <Route path="/login" exact={true} component={Login}/>
               <Route path="/signup" exact={true} component={SignUp}/>
               <Route path="/update-profile" exact={true} component={UpdateProfile}/>
+              <Route component={PageNotFound} />
           </Switch>
       </BrowserRouter>
   );
