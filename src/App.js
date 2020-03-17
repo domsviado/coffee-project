@@ -4,6 +4,7 @@ import Navigation from './components/navigation'
 import Home from './routes/home'
 import Orders from './routes/orders'
 import {Login} from './routes/login'
+import {SignUp} from './routes/signup'
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
               <Route path="/" exact={true} component={Home}/>
               <Route path="/orders" exact={true} component={Orders}/>
               <Route path="/login" exact={true} component={Login}/>
-              <Route path="/signup" exact={true} component={Home}/>
+              <Route path="/signup" exact={true} component={SignUp}/>
               <Route path="/update-profile" exact={true} component={Home}/>
           </Switch>
       </BrowserRouter>
