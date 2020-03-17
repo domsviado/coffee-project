@@ -8,7 +8,6 @@ function Home() {
             <h2 className="mt-5 mb-5">Product List</h2>
             <Product/>
         </Container>
-
     )
 }
 
