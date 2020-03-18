@@ -35,6 +35,9 @@ function Navigation() {
                     <Nav.Item>
                         <Nav.Link href="/update-profile">Update Profile</Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/products">Products</Nav.Link>
+                    </Nav.Item>
                 </Nav>
             </Navbar>
         </>

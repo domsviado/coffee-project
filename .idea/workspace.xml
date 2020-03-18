@@ -4,6 +4,8 @@
     <list default="true" id="324c625f-cc81-4fb0-851a-693989f5061d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/signup/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/signup/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../coffee-project-backend" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,7 +80,9 @@
       <option name="presentableId" value="Default" />
       <updated>1584446268403</updated>
       <workItem from="1584446269973" duration="5602000" />
-      <workItem from="1584452571258" duration="14113000" />
+      <workItem from="1584452571258" duration="14797000" />
+      <workItem from="1584488479017" duration="4035000" />
+      <workItem from="1584502478178" duration="1392000" />
     </task>
     <servers />
   </component>
@@ -107,5 +111,9 @@
       <screen x="0" y="216" width="1366" height="741" />
     </state>
     <state width="1324" height="174" key="GridCell.Tab.0.right/0.216.1366.741/1366.0.1366.768@0.216.1366.741" timestamp="1584450291426" />
+    <state x="0" y="27" width="774" height="741" key="find.popup" timestamp="1584502600635">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="0" y="27" width="774" height="741" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584502600635" />
   </component>
 </project>
