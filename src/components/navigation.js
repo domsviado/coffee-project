@@ -17,23 +17,19 @@ function Navigation() {
                     Order A Coffee
                 </Navbar.Brand>
                 <Nav
-                    activeKey="/"
                     onSelect={selectedKey => alert(`selected ${selectedKey}`)}
                 >
-                    <Nav.Item>
-                        <Nav.Link href="/">Products</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/orders">Orders</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link href="/login">Login</Nav.Link>
-                    </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/signup">Sign Up</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/update-profile">Update Profile</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/home">Products</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link href="/orders">Orders</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href="/products">Products</Nav.Link>
