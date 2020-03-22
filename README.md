@@ -1,5 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Create an `.env` file from `.env.example`
+
+Run this command from project's directory:
+
+```touch .env.example .env```
+
+install `docker` and `docker-composer` and run this command:
+
+```docker-compose up```
+
+install dependencies
+
+```npm install```
+
 ## Available Scripts
 
 In the project directory, you can run:
