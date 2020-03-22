@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="324c625f-cc81-4fb0-851a-693989f5061d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Firebase/fireabase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Firebase/fireabase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navigation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Session/withAuthentication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Session/withAuthentication.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/home/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/home/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/login/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/orders/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/orders/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/coffee-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -117,7 +110,7 @@
       <workItem from="1584792801552" duration="7407000" />
       <workItem from="1584815134627" duration="2900000" />
       <workItem from="1584842247927" duration="34127000" />
-      <workItem from="1584883329187" duration="17603000" />
+      <workItem from="1584883329187" duration="20020000" />
     </task>
     <servers />
   </component>
@@ -133,12 +126,12 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="416" y="147" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1584865874107" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584888183544">
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1584903328532">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="344" width="424" height="491" key="FileChooserDialogImpl/0.216.1366.741/1366.0.1366.768@0.216.1366.741" timestamp="1584448920611" />
     <state x="466" y="155" key="FileChooserDialogImpl/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584464650099" />
-    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1584888183544" />
+    <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1584903328532" />
     <state width="1324" height="174" key="GridCell.Tab.0.bottom" timestamp="1584450291426">
       <screen x="0" y="216" width="1366" height="741" />
     </state>
@@ -175,11 +168,11 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="475" y="317" width="415" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1366.741@0.27.1366.741" timestamp="1584772035512" />
-    <state x="0" y="27" width="774" height="741" key="find.popup" timestamp="1584895823502">
+    <state x="0" y="27" width="774" height="741" key="find.popup" timestamp="1584903119536">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="0" y="27" width="774" height="741" key="find.popup/0.27.1366.741/1366.0.1366.768@0.27.1366.741" timestamp="1584502600635" />
-    <state x="0" y="27" width="774" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1584895823502" />
+    <state x="0" y="27" width="774" height="741" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1584903119536" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584897998818">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

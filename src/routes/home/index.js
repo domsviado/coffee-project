@@ -15,34 +15,15 @@ class Home extends React.Component {
         this.state = {...INITIAL_STATE}
     }
 
-    getProducts = async () => {
-        try {
-            const result = await axios.get(
-                process.env.REACT_APP_SERVER_URL + process.env.REACT_APP_SERVER_PORT + '/api/' + process.env.REACT_APP_SERVER_API_VERSION + '/products'
-            );
-            const products = result.data.products;
-
-            let productList = products.map((product) => {
-                return <Product name={product.name} description={product.description} price={product.price} productId={product.id} />
-            });
-
-            productList.forEach((product) => {
-                this.setState({products: product}) ;
+    componentDidMount() {
+        axios.get(
+            process.env.REACT_APP_SERVER_URL + process.env.REACT_APP_SERVER_PORT + '/api/' + process.env.REACT_APP_SERVER_API_VERSION + '/products'
+        )
+            .then(res => {
+                const products = res.data;
+                this.setState({ products });
             })
-
-        } catch (error) {
-            console.log(error);
-        }
-    };
-
-    orderProduct = async (productId) => {
-        const response = await axios.post('/orders/create', {
-            product_id: productId,
-            quantity: 1
-        });
-
-        console.log(response.data.order);
-    };
+    }
 
     render () {
         const {products} = this.state;
@@ -53,7 +34,7 @@ class Home extends React.Component {
                         <h1>Hello {authUser.displayName}</h1>
                         <h2 className="mt-5 mb-5">Product List</h2>
                         <Row>
-                            {products}
+                            {products.map(product => <Product name={product.name} description={product.description} price={product.price} productId={product.id} />)}
                         </Row>
                     </Container>
                 )}
